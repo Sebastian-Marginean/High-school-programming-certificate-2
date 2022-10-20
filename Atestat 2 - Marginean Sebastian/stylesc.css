@@ -1,0 +1,157 @@
+/*########## Defaults ###########*/
+nav.
+header.
+footer {
+    display: block;
+}
+
+body {
+    background-image: url(images-for-volleyball2.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    color:aliceblue;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+/*################Custom Styles##################*/
+
+nav {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    border:2px white;
+}
+
+nav ul {
+    background-color: black;
+    overflow: hidden;
+    margin:0;
+    padding: 0px;
+display: inline-block;
+    border: 2px white;
+}
+h2 {
+    color: white;
+}
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+ul.topnav li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+.follow{
+    color:black;
+}
+footer.foot {
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    display: block;
+}
+
+div.Social-media {
+    font-size: 75px
+}
+
+input[type="email"] {
+    text-align: center;
+    font-size: 25px;
+    font-size: 26px;
+    width: 400px;
+    height: 30px;
+}
+input[type="text"] {
+    text-align: center;
+    font-size: 25px;
+    width: 400px;
+    height: 20px;
+}
+textarea {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    height: 100px;
+}
+button {
+    font-size: 20px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+/*############# Mobile ################*/
+
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative;
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+        padding: 14px;
+    } 
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
